@@ -5,7 +5,7 @@ from threading import Thread
 from queue import Queue
 
 # defualt video number, if you want to process the "fog_video.mp4", change video_index to 1
-video_index = 0
+video_index = 1
 
 # the result of lane detection, we add the road to the main frame
 road = np.zeros((720, 1280, 3))
